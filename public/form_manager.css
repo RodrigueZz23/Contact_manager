@@ -1,0 +1,84 @@
+
+body {
+    background-color:#0078d4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: white;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.icon-academic {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
